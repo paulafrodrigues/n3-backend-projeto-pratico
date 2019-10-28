@@ -1,0 +1,23 @@
+{
+  "name": "7-projeto-pratico",
+  "version": "1.0.0",
+  "description": "1º projeto prático da turma 3 de backend da {reprograma}!",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulafrodrigues/n3-backend-projeto-pratico.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulafrodrigues/n3-backend-projeto-pratico/issues"
+  },
+  "homepage": "https://github.com/paulafrodrigues/n3-backend-projeto-pratico#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

@@ -2,3 +2,6 @@
 
 1. GET/Tarefas - done
 2. GET/Tarefas/:id - done
+3. Incluir colaborador
+4. GET/Tarefas/concluidos/filtrar
+5. GET/Tarefas/:nome/buscar

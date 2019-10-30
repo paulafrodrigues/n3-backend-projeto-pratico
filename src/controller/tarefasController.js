@@ -13,4 +13,9 @@ exports.getById = (req, res) => {
     }
     res.status(200).send(tarefas.find(tarefa => tarefa.id == id))
 }
-
+   
+// não ta funcionando.. pq?
+exports.getConcluido = (req, res) => {
+    const concluido = tarefas.filter(item => item.concluido == "true")
+    res.status(200).send(concluido)
+}
